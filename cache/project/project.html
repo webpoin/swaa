@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>win8 菜单</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div class="bkg">&nbsp;</div> 
+	<!--<img class="bkg" src="images/bkg.jpg" >-->
+
+
+	<!-- cite:行  span:列 div:块-->
+	<div class="nine menu">
+		<b class="prev">&nbsp;</b>
+		<b class="next">&nbsp;</b>
+		<cite>
+			<div class="slidesbox block_12x4">
+				<div class="slides">
+					<ul>
+						<li><img src="../../images/6.jpeg" /></li>
+						<li><img src="../../images/2.jpeg" /></li>
+						<li><img src="../../images/3.jpeg" /></li>
+						<li><img src="../../images/4.jpeg" /></li>
+						<li><img src="../../images/5.jpeg" /></li>
+					</ul>	
+				</div>
+				
+			</div>
+
+
+		</cite>
+
+		<cite></cite>
+		<cite></cite>
+
+		<cite></cite>
+		<cite></cite>
+		<cite></cite>
+
+		<cite><div class="block_12x2 show_msg" ><p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p></div></cite>
+		<cite></cite>
+		<cite></cite>
+	</div>
+
+
+
+	<a href="/cache/"><img id='tohome' src="../../images/home.png" /></a>
+	<img id='toback' src="../../images/back.png" />
+
+
+<script type="text/javascript">
+		document.getElementById('toback').onclick = function(){history.go(-1);	}
+	</script>
+
+<script src="../../js/jquery-1.10.2.min.js"></script>
+<script src="../../js/marquee.js"></script>
+<script type="text/javascript">
+$('.slides').marquee({
+            auto: true,
+            speed: 500,
+            interval: 5000 ,
+            showNum: 5,
+            stepLen: 1,
+            prevElement: $('.prev'),
+            nextElement: $('.next'),
+        });
+
+</script>
+</body>
+</html>

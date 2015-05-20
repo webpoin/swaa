@@ -1,0 +1,13 @@
+id 
+
+parent	//父级
+
+position //位置
+
+size //大小
+
+type //点击打开后的表现类型  调用模板  menu:菜单 list:列表 content:内容
+
+link链接
+
+content //内容
